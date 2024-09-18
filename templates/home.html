@@ -1,0 +1,80 @@
+{% extends "base.html" %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+
+    <div class="row row-cols-1 row-cols-md-3 g-4 pt-2">
+        <div class="col">
+            <div class="card h-auto custom-card">
+                <div class="card-body">
+                    <h5 class="card-title">カード1のタイトル</h5>
+                    <p class="card-text">ここにリアルタイムの分析データ、教室の全体データを表示します。</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-auto custom-card">
+                <div class="card-body">
+                    <h5 class="card-title">カード2のタイトル</h5>
+                    <p class="card-text">ここにリアルタイムの分析データ、教室の全体データを表示します。</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-auto custom-card">
+                <div class="card-body">
+                    <h5 class="card-title">カード3のタイトル</h5>
+                    <p class="card-text">ここにリアルタイムの分析データ、教室の全体データを表示します。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row pt-2">
+            <div class="col-sm-6">
+                <nav class="navbar navbar-expand-lg bg-body-tertiary nav-bar-2">
+                    <div class="container-fluid">
+                        <a class="navbar-brand navbar-brand-2" href="#">総合分析リスト</a>
+                    </div>
+                </nav>
+                <div class="list-group scrollable-list-group">
+                    <a href="#" class="list-group-item list-group-item-action box11">アイテム 1</a>
+                    <a href="#" class="list-group-item list-group-item-action box11">アイテム 2</a>
+                    <a href="#" class="list-group-item list-group-item-action box11">アイテム 3</a>
+                    <a href="#" class="list-group-item list-group-item-action box11">アイテム 4</a>
+                    <a href="#" class="list-group-item list-group-item-action box11">アイテム 5</a>
+                    <a href="#" class="list-group-item list-group-item-action box11">アイテム 6</a>
+                    <a href="#" class="list-group-item list-group-item-action box11">アイテム 7</a>
+                    <a href="#" class="list-group-item list-group-item-action box11">アイテム 8</a>
+                    <a href="#" class="list-group-item list-group-item-action box11">アイテム 9</a>
+                    <a href="#" class="list-group-item list-group-item-action box11">アイテム 10</a>
+                </div>                
+            </div>
+            <div class="col-sm-6">
+                <nav class="navbar navbar-expand-lg bg-body-tertiary nav-bar-2">
+                    <div class="container-fluid">
+                        <a class="navbar-brand navbar-brand-2" href="#">生徒リスト</a>
+                        <form class="d-flex" role="search">
+                            <input type="search" id="search-input" name="search" class="form-control me-2 custom-input" placeholder="検索..." aria-label="検索...">
+                            <button type="submit" class="btn btn-outline-light flex-shrink-0">検索</button>
+                        </form>
+                    </div>
+                </nav>
+                <div class="list-group scrollable-list-group">
+                    <a href="#" class="list-group-item list-group-item-action box11">アイテム 1</a>
+                    <a href="#" class="list-group-item list-group-item-action box11">アイテム 2</a>
+                    <a href="#" class="list-group-item list-group-item-action box11">アイテム 3</a>
+                    <a href="#" class="list-group-item list-group-item-action box11">アイテム 4</a>
+                    <a href="#" class="list-group-item list-group-item-action box11">アイテム 5</a>
+                    <a href="#" class="list-group-item list-group-item-action box11">アイテム 6</a>
+                    <a href="#" class="list-group-item list-group-item-action box11">アイテム 7</a>
+                    <a href="#" class="list-group-item list-group-item-action box11">アイテム 8</a>
+                    <a href="#" class="list-group-item list-group-item-action box11">アイテム 9</a>
+                    <a href="#" class="list-group-item list-group-item-action box11">アイテム 10</a>
+                </div>       
+            </div>
+        </div>        
+    </div>
+
+{% endblock %}
